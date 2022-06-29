@@ -1,0 +1,357 @@
+body {
+	background-color: #fff;
+}
+
+.navbar {
+	background-color: rgba(0, 0 , 0); 
+	width: 100%;
+	margin: 0px; 
+}
+
+
+ .container-fluid {
+	border-radius: 3px
+	color: #fff;
+	padding: 25px;
+	padding-left: 20px;
+
+}
+#nike {
+	padding-top: 30px;
+}
+
+.Sneaker-logo-box {
+	border-radius: 20px;
+	text-align: center;
+}
+
+
+
+.container a {
+	color: white;
+	transition: 0.5s;
+}
+
+.container a:hover {
+	color: rgba(204, 255, 153, 0.7);
+}
+
+.navbar-default .navbar-nav .dropdown.open a:focus {
+    background-color: #6dbcc9;
+}
+
+.dropdown-menu {
+ background-color: (255, 255, 255, 0.7)
+}
+
+.dropdown-menu .dropdown-item {
+	color: rgba(0,0,0,0.7);
+	transition: 0.5s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+	color: rgba(0,0,0,1);
+	background-color: rgba(204, 255, 153, 0.7);
+	font-weight: 500;
+}
+.navbar-toggler {
+	background-color: rgba(204,255,153,0.5);
+	margin-left: 100px;
+	width: 60px;
+}
+main {
+	min-height: 100vh;
+	min-width: 100%;
+	background-image: linear-gradient(rgba(204, 255, 153, 0.5), rgba(0,0,0,0.5)), url(background2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+/*Media queries */
+
+
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+	padding: 11px;
+}
+
+
+.col {
+flex-basis: 50%;
+
+
+}
+
+  h1  {
+	font-weight: 600;
+	color: rgb(0, 26, 0);
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+.row .col p {
+	color: rgb(0, 26, 0);
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: 360
+}
+
+.button {
+	width: 100px;
+	color: rgba(0,0,19,0.3);
+	background-color: transparent;
+	font-size: 30px;
+	font-weight: 360;
+	padding: 3px ;
+	transition: 0.5s;
+	border-style: none;
+	text-decoration: none;
+
+}
+
+.button:hover {
+	padding: 7px 5px;
+	background-color: inherit;
+	color: rgba(0,0,0,0.8);
+}
+
+
+.image-box1, .image-box2 ,.image-box3, .image-box4{	
+   width: 250px;
+   height: 230px;
+   border-radius: 10px;
+   margin: 10px 15px;
+   display: inline-block;
+   box-sizing: border-box;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+
+}
+
+
+.image-box5 {
+	width: 250px;
+   height: 230px;
+   border-radius: 53.8%;
+   margin: 10px 15px;
+   display: inline-block;
+   box-sizing: border-box;
+   background-position: center;
+   background-size: fill;
+   cursor: pointer;
+
+
+}
+
+
+.image-box1 {
+	background-image: url(nike.jpg)
+}
+
+.image-box2 {
+	background-image: url(reebok.jpg)
+}
+
+.image-box3 {
+background-image: url(adidas.jpg)
+}
+
+.image-box4 {
+background-image: url(newbalance.png)
+}
+
+.image-box5 {
+	background-image: url(converse.png);
+}
+
+
+.logo:hover {
+box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.8);
+transition: 0.5s
+}
+
+
+
+/*.image-box5 {
+	width: 250px;
+   height: 230px;
+   border-radius: 50%;
+   margin: 10px 15px;
+   display: inline-block;
+   box-sizing: border-box;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+
+}*/
+
+
+ .Nikeshoes {
+	min-height: 100vh;
+	width: 100%;
+	background : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8));
+	position: relative;
+}
+
+
+
+.card {
+
+ padding: 1.5em;
+
+}
+
+
+.card:hover {
+
+	box-shadow: 0 0 20px 0px rgba(200, 200, 200, 0.5);
+	transition: 0.5s;
+
+}
+
+.card-title {
+	font-weight: 600;
+}
+
+.card-text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 260;
+}
+
+.mid {
+	background-color: #E8D5AD
+}
+
+.classic {
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(179,0,0,0.7) );
+}
+
+.Yellow {
+	background: linear-gradient(#EDAB19, #854A6C );
+}
+
+
+
+.logo-box1 , .logo-box2 ,.logo-box3, .logo-box4, .logo-box5 {	
+   width: 100%;
+   height: 450px;
+   border-radius: 10px;
+   margin: 10px 15px;
+   display: inline-block;
+   box-sizing: border-box;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+
+}
+
+
+
+.logo-box1 {
+	background-image: url(https://i.pinimg.com/originals/58/00/db/5800db8e54a10aa17b1008ae31c3a903.gif)
+}
+
+.logo-box2 {
+	background-image: url(https://wallpapercave.com/wp/wp1836122.jpg)
+}
+
+
+.logo-box3 {
+	background-image: url(https://thumbs.gfycat.com/ChillyImpassionedHornet-max-1mb.gif)
+}
+
+.logo-box4 {
+	background-image: url(https://i.pinimg.com/originals/fb/ba/36/fbba36fbcead3233b71f3aea0815a651.gif);
+}
+
+.logo-box5 {
+	background-image: url(https://i.pinimg.com/originals/e8/5d/22/e85d22b3e4d48944de66184b61a95435.gif);
+}
+
+.reebokshoes {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rkshoe {
+	background: linear-gradient(rgb(35, 55, 65), #D4CAC1)
+}
+
+.new-balance {
+	background: linear-gradient(rgba(14,15,14, 0.6), rgba(200, 200, 200, 0.7));
+	padding-top: 10px
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+.Sneaker-logo-box {
+	text-align: left;
+} 		
+
+	.logo {
+		width: 160px;
+		height: 160px;
+		display: inline-block;
+
+	}
+
+	.image-box5 {
+		background-size: cover;
+		background-color: transparent;
+	}
+
+	h1 {
+		font-size: 45px
+
+
+	}
+
+}
+
+
+footer p {
+	color: white;
+}
+
+span {
+	cursor: pointer;
+	color: rgb(0,0,0,0.9);
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+ /*{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(3,9,30,0.7), rgba(5,9,37,0.7)), url(background.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
